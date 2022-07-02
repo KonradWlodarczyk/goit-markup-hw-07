@@ -1,0 +1,17 @@
+.banner {
+    background-color: #2f303a;
+    text-align: center;
+    padding: 200px 0;
+    color: #fff;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/mainbg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    align-items: center;
+    margin: 0 auto;
+}

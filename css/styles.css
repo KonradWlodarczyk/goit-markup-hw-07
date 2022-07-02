@@ -1,19 +1,4 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-:root {
-  --main-font-color: #212121;
-  --brand-color: #2196f3;
-  --bg-color: #f5f4fa;
-  --icon-color: #afb1b8;
-  --footer-bg: #2f303a;
-}
+
 .container {
   max-width: 1200px;
   width: 100%;
@@ -26,17 +11,14 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-body {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-}
-ul {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-}
-a {
-  text-decoration: none;
+
+.link:hover,
+.link:focus,
+.contact__link:hover,
+.contact__link:focus,
+.navigation__link:hover,
+.navigation__link:focus {
+  color: var(--brand-color);
 }
 .link {
   text-decoration: none;
@@ -47,15 +29,6 @@ a {
   letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link:hover,
-.link:focus,
-.contact__link:hover,
-.contact__link:focus,
-.navigation__link:hover,
-.navigation__link:focus {
-  color: var(--brand-color);
-}
-
 
 /* ------HEADER----- */
 .header {
@@ -612,14 +585,10 @@ a {
   border-radius: 50%;
   cursor: pointer;
 }
-.sign-up__box:focus-within {
+.sign-up__box:focus-within svg {
   fill: var(--brand-color);
 }
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
+
 .button--policy {
   width: 200px;
   height: 50px;

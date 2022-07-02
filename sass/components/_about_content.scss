@@ -1,0 +1,27 @@
+.about {
+    &__list {
+        display: flex;
+        justify-content: space-between;
+      }
+      &__item {
+        position: relative;
+      }
+      
+      &__overlay {
+        position: absolute;
+        display: flex;
+        width: 370px;
+        height: 70px;
+        background: rgba(47, 48, 58, 0.8);
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.114;
+        letter-spacing: 0.03em;
+        align-items: center;
+        justify-content: center;
+        top: 224px;
+      }
+  }
+ 
