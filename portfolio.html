@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-section">
+            <a href="./index.html" class="logo header-section__logo">
+              <span class="logo--color">Web</span>
+              Studio
+            </a>
+            <nav>
+            <ul class="navigation">
+              <li class="navigation__item">
+                <a href="./index.html" class="navigation__link navigation__link">agencja</a>
+              </li>
+              <li class="navigation__item">
+                <a href="./portfolio.html" class="navigation__link--active">portfolio</a>
+              </li>
+              <li class="navigation__item">
+                <a href="" class="navigation__link">kontakt</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="contact">
+            <li class="contact__item">
+              <a href="mailto:info@devstudio.com" class="contact__link">
+                <svg class="contact__icon contact__icon--envelope">
+                  <use href="./images/icons.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </li>
+            <li class="contact__item">
+              <a href="tel:+48111111111" class="contact__link">
+                <svg class="contact__icon contact__icon--smartphone">
+                  <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg>
+                +48 111 111 111
+              </a>
+            </li>
+          </ul>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="section">
+          <div>
+            <ul class="filter__list">
+              <li class="filter__item">
+                <button type="button" class="button button--filter">
+                  Wszystkie
+                </button>
+              </li>
+              <li class="filter__item">
+                <button type="button" class="button button--filter">Strony</button>
+              </li>
+              <li class="filter__item">
+                <button type="button" class="button button--filter">
+                  Aplikacje
+                </button>
+              </li>
+              <li class="filter__item">
+                <button type="button" class="button button--filter">Dizajn</button>
+              </li>
+              <li class="filter__item">
+                <button type="button" class="button button--filter">
+                  Marketing
+                </button>
+              </li>
+            </ul>
+          </div>
+          <section>
+            <ul class="offer__list">
+              <li class="offer__item">
+                <figure class="offer__picture">
+                  <img
+                    class="offer__img"
+                    src="images/portfolio1.jpg"
+                    alt="zdjęcie laptopa"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="offer__overlay">
+                    <p class="offer__overlay-text">
+                      Technocrack jest popularną platformą wykorzystywaną do
+                      rozpowszechniania koronawirusa. Firmy wykorzystują tę
+                      platformę do celów szpiegowskich i ataków na
+                      niezabezpieczone serwery konkurencji
+                    </p>
+                  </div>
+                  <figcaption class="offer__text">
+                    <h3 class="offer__title">Technocrack</h3>
+                    <p class="offer__category">Strona internetowa</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="offer__item">
+                <figure class="offer__picture">
+                  <img
+                    class="offer__img"
+                    src="images/portfolio2.jpg"
+                    alt="zdjęcie koszykarzy"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="offer__overlay">
+                    <p class="offer__overlay-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nam vel arcu sem. Sed non sodales dui. Interdum et
+                      malesuada
+                    </p>
+                  </div>
+                  <figcaption class="offer__text">
+                    <h3 class="offer__title">
+                      Grafika New Orlean vs Golden Star
+                    </h3>
+                    <p class="offer__category">Dizajn</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="offer__item">
+                <figure class="offer__picture">
+                  <img
+                    class="offer__img"
+                    src="images/portfolio3.jpg"
+                    alt="zdjęcie logo restauracji"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="offer__overlay">
+                    <p class="offer__overlay-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nam vel arcu sem. Sed non sodales dui. Interdum et
+                      malesuada
+                    </p>
+                  </div>
+                  <figcaption class="offer__text">
+                    <h3 class="offer__title">Restauracja Seafood</h3>
+                    <p class="offer__category">Aplikacja</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="offer__item">
+                <figure class="offer__picture">
+                  <img
+                    class="offer__img"
+                    src="images/portfolio4.jpg"
+                    alt="zdjęcie słuchawek"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="offer__overlay">
+                    <p class="offer__overlay-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nam vel arcu sem. Sed non sodales dui. Interdum et
+                      malesuada
+                    </p>
+                  </div>
+                  <figcaption class="offer__text">
+                    <h3 class="offer__title">Projekt Prime</h3>
+                    <p class="offer__category">Marketing</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="offer__item">
+                <figure class="offer__picture">
+                  <img
+                    class="offer__img"
+                    src="images/portfolio5.jpg"
+                    alt="zdjęcie pudełek"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="offer__overlay">
+                    <p class="offer__overlay-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nam vel arcu sem. Sed non sodales dui. Interdum et
+                      malesuada
+                    </p>
+                  </div>
+                  <figcaption class="offer__text">
+                    <h3 class="offer__title">Projekt Boxes</h3>
+                    <p class="offer__category">Aplikacja</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="offer__item">
+                <figure class="offer__picture">
+                  <img
+                    class="offer__img"
+                    src="images/portfolio6.jpg"
+                    alt="zdjęcie monitora"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="offer__overlay">
+                    <p class="offer__overlay-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nam vel arcu sem. Sed non sodales dui. Interdum et
+                      malesuada
+                    </p>
+                  </div>
+                  <figcaption class="offer__text">
+                    <h3 class="offer__title">Inspiration has no borders</h3>
+                    <p class="offer__category">Strona internetowa</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="offer__item">
+                <figure class="offer__picture">
+                  <img
+                    class="offer__img"
+                    src="images/portfolio7.jpg"
+                    alt="zdjęcie magazynu"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="offer__overlay">
+                    <p class="offer__overlay-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nam vel arcu sem. Sed non sodales dui. Interdum et
+                      malesuada
+                    </p>
+                  </div>
+                  <figcaption class="offer__text">
+                    <h3 class="offer__title">Magazyn Limited Edition</h3>
+                    <p class="offer__category">Dizajn</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="offer__item">
+                <figure class="offer__picture">
+                  <img
+                    class="offer__img"
+                    src="images/portfolio8.jpg"
+                    alt="zdjęcie etykiety"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="offer__overlay">
+                    <p class="offer__overlay-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nam vel arcu sem. Sed non sodales dui. Interdum et
+                      malesuada
+                    </p>
+                  </div>
+                  <figcaption class="offer__text">
+                    <h3 class="offer__title">Projekt LAB</h3>
+                    <p class="offer__category">Marketing</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="offer__item">
+                <figure class="offer__picture">
+                  <img
+                    class="offer__img"
+                    src="images/portfolio9.jpg"
+                    alt="zdjęcie laptopa2"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="offer__overlay">
+                    <p class="offer__overlay-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nam vel arcu sem. Sed non sodales dui. Interdum et
+                      malesuada
+                    </p>
+                  </div>
+                  <figcaption class="offer__text">
+                    <h3 class="offer__title">Growing Business</h3>
+                    <p class="offer__category">Aplikacja</p>
+                  </figcaption>
+                </figure>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </main>
+  <footer class="footer">
+      <section class="container footer-section">
+        <div class="footer-contact">
+          <a href="./index.html" class="logo footer-section__logo">
+            <span class="logo--color">Web</span>
+            Studio
+          </a>
+          <address>
+            <ul class="section__list footer-contact__list">
+              <li class="footer-contact__item">m. Warszawa, Aleje Jerozolimskie 21</li>
+              <li class="footer-contact__item">
+                <a href="mailto:info@example.com" class="footer-contact__link">
+                  info@example.com
+                </a>
+              </li>
+              <li class="footer-contact__item">
+                <a href="tel:+48111111111" class="footer-contact__link">
+                  +48 111 111 111
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-social">
+          <h3 class="footer-social__title">dołącz do nas</h3>
+          <ul class="footer-social__list">
+            <li class="footer-social__item">
+              <a class="footer-social__link" href="#">
+                <svg class="footer-social__icon">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social__item">
+              <a class="footer-social__link" href="#">
+                <svg class="footer-social__icon">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social__item">
+              <a class="footer-social__link" href="#">
+                <svg class="footer-social__icon">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social__item">
+              <a class="footer-social__link" href="#">
+                <svg class="footer-social__icon">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="newsletter">
+          <h3 class="newsletter__title">zapisz się do newslettera</h3>
+          <div>
+            <form class="newsletter__form" name="formularz-newslettera" autocomplete="on" action="http://localhost:3000/posts"
+          method="POST">
+              <input 
+              class="newsletter__box"
+              type="email" name="email" placeholder="E-mail" required/>
+              <button class="button button--newsletter" type="submit">
+                Zapisz się
+                <svg class="newsletter__icon">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
