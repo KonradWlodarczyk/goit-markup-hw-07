@@ -14,4 +14,12 @@
     max-width: 1600px;
     align-items: center;
     margin: 0 auto;
+    &__title {
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 1.36em;
+      max-width: 696px;
+      text-transform: uppercase;
+      margin: 0 auto 30px;
+    }
 }

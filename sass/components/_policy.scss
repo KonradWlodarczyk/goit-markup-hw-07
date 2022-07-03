@@ -7,28 +7,26 @@
     &__link {
         color: var(--brand-color);
     }
+    &__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+        &::before {
+            content: "";
+            display: inline-block;
+            margin-left: 0;
+            margin-right: 9px;
+            height: 16px;
+            width: 16px;
+            border: 1px solid rgba(33, 33, 33, 0.2);
+            border-radius: 2px;
+            cursor: pointer;
+        }
+      }
 }
-
-.policy__text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #757575;
-    &::before {
-        content: "";
-        display: inline-block;
-        margin-left: 0;
-        margin-right: 9px;
-        height: 16px;
-        width: 16px;
-        border: 1px solid rgba(33, 33, 33, 0.2);
-        border-radius: 2px;
-        cursor: pointer;
-    }
-  }
-  
   .policy__checkbox:checked + .policy__text::before {
     border: none;
     background-color: var(--brand-color);
